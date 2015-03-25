@@ -1,0 +1,37 @@
+// Non-modular or client styles for .l-header region.
+
+header {
+  background: $oil;
+  border-bottom: 1px solid $steel;
+}
+
+#header {
+  padding-top: 1rem;
+
+  h1#site-name,
+  div#site-name {
+    font-family: $body-font-family;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+
+    a {
+      color: $body-font-color;
+
+      &:hover {
+        color: $white;
+      }
+    }
+
+    strong {
+      font-weight: normal;
+    }
+  }
+
+  h2#site-slogan {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+  }
+}
+
