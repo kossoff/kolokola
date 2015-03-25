@@ -103,7 +103,9 @@
 
         <a id="main-content"></a>
 
-        <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+        <div class="hide-for-small">
+          <?php if ($breadcrumb): print $breadcrumb; endif; ?>
+        </div>
 
         <?php if ($title): ?>
           <?php if ( isset($node) ): ?>
@@ -203,7 +205,7 @@
     </div>
   <?php endif; ?>
   <div class="row l-footer">
-    <div class="large-6 columns">
+    <div class="medium-6 columns hide-for-small">
       <div id="hcard-zavod-anisimova" class="vcard">
         <div class="fn n org">Колокололитейный завод Анисимова</div>
         <div class="adr">
@@ -225,7 +227,7 @@
       </div>
     </div>
 
-    <div class="large-6 columns">
+    <div class="medium-6 small-12 columns">
       <div class="sitemap">
         <a href="/sitemap">
           <i class="fi-map"></i>
