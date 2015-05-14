@@ -205,7 +205,7 @@
     </div>
   <?php endif; ?>
   <div class="row l-footer">
-    <div class="medium-6 columns hide-for-small">
+    <div class="medium-5 columns hide-for-small">
       <div id="hcard-zavod-anisimova" class="vcard">
         <div class="fn n org">Колокололитейный завод Анисимова</div>
         <div class="adr">
@@ -226,8 +226,10 @@
         </div>
       </div>
     </div>
-
-    <div class="medium-6 small-12 columns">
+    <div class="text-center medium-2 small-12 columns">
+      <a href="http://kampan.ru"><img src="<?php print path_to_theme(); ?>/images/kampanru.gif" title="kampan.ru" />kampan.ru</a>
+    </div>
+    <div class="medium-5 small-12 columns">
       <div class="sitemap">
         <a href="/sitemap">
           <i class="fi-map"></i>
