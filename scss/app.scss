@@ -131,3 +131,18 @@ body.node-type-product {
     font-size: rem-calc(27);
   }
 }
+
+// @media #{$medium-up} {
+//   $footer-height: 250px;
+// }
+
+@media #{$small-only} {
+  .wrap-main {
+    padding-bottom: 340px;
+  }
+
+  footer {
+    height: 340px;
+    margin-top: -340px;
+  }
+}

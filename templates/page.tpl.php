@@ -227,7 +227,7 @@
       </div>
     </div>
     <div class="text-center medium-2 small-12 columns">
-      <a href="http://kampan.ru"><img src="<?php print path_to_theme(); ?>/images/kampanru.gif" title="kampan.ru" />kampan.ru</a>
+      <a href="http://kampan.ru"><img src="<?php print path_to_theme(); ?>/images/kampanru.gif" title="kampan.ru" />&ensp;kampan.ru</a>
     </div>
     <div class="medium-5 small-12 columns">
       <div class="sitemap">
